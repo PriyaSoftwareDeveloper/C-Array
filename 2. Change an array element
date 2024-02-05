@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int numbers[]={25,50,75,100};
+	numbers[0] = 33;
+
+	printf("%d", numbers[0]);
+
+	return EXIT_SUCCESS;
+}
+
+Output:33
