@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int numbers[]={25,50,75,100};
+	int i;
+
+	for(i=0;i<4;i++){
+		printf("%d \n", numbers[i]);
+	}
+
+	return EXIT_SUCCESS;
+}
+
+output: 
+25
+50
+75
+100
